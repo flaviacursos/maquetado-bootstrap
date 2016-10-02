@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Transportes X - Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+      <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <a class="navbar-brand" href="index.html">Transportes X</a>
+       </div>
+       <div id="navbar" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="nosotros.html">Nosotros</a></li>
+           <li><a href="servicios.html">Servicios</a></li>
+           <li><a href="galeria.html">Galería</a></li>
+           <li class="active"><a href="contacto.html">Contacto</a></li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+
+   <div class="container-fluid wrapper">
+       <div class="row">
+           <div class="col-sm-6">
+               <form  class="form-horizontal">
+                   <div class="form-group">
+                       <label for="nombre" class="col-xs-2 control-label">Nombre</label>
+                       <div class="col-xs-10">
+                           <input id="nombre" type="text" class="form-control" placeholder="Ingrese su nombre">
+                       </div>
+                   </div>
+                   <div class="form-group">
+                       <label for="email" class="col-xs-2 control-label">E-Mail</label>
+                       <div class="col-xs-10">
+                           <input id="email" type="email" class="form-control" placeholder="Ingrese su E-Mail">
+                       </div>
+                   </div>
+                   <div class="form-group">
+                       <label for="asunto" class="col-xs-2 control-label">Asunto</label>
+                       <div class="col-xs-10">
+                           <input id="asunto" type="text" class="form-control" placeholder="Ingrese el asunto">
+                       </div>
+                   </div>
+                   <div class="form-group">
+                       <label for="mensaje" class="col-xs-2 control-label">Mesanje</label>
+                       <div class="col-xs-10">
+                           <textarea id="mensaje" class="form-control" rows="3" placeholder="Ingrese su mensaje"></textarea>
+                       </div>
+                   </div>
+                    <div class="form-group">
+                        <div class="col-xs-offset-2 col-xs-10">
+                            <button type="submit" class="btn btn-default">Enviar</button>
+                        </div>
+                    </div>
+               </form>
+           </div>
+           <div class="col-sm-6">
+               <h2>Otras vías de contacto</h2>
+                <p>También puede contactarse con nosotros usando los siguientes medios:</p>
+                <ul>
+                    <li>Teléfono: 4578-4578</li>
+                    <li>Email: contacto@trasnportesx.com.ar</li>
+                    <li>Facebook: facebook.com/trasnportesx</li>
+                    <li>Twitter: @trasnportesx</li>
+                    <li>Skype: trasnportesx_skype</li>
+                </ul>
+           </div>
+       </div>
+   </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
